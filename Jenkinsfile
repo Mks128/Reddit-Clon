@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/devops-easy/reddit-clone.git'
+                git branch: 'main', url: 'https://github.com/Mks128/Reddit-Clon.git'
             }
         }
         stage("Sonarqube Analysis") {
